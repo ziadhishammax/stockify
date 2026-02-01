@@ -1,4 +1,3 @@
-import { FloatingAdBanner } from "@/components/FloatingAdBanner";
 import Header from "@/components/Header";
 import {auth} from "@/lib/better-auth/auth";
 import {headers} from "next/headers";
@@ -18,7 +17,6 @@ const Layout = async ({ children }: { children : React.ReactNode }) => {
     return (
         <main className="min-h-screen text-gray-400">
             <Header user={user} />
-            {/* <FloatingAdBanner /> */}
             <div className="container py-10">
                 {children}
             </div>
