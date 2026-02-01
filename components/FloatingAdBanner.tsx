@@ -42,7 +42,7 @@ export function FloatingAdBanner() {
 
   return (
     <div
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed z-[9999] top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isClosing ? 'translate-y-[-100%] opacity-0' : 'translate-y-0 opacity-100'
       }`}
     >
